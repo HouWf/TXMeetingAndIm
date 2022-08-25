@@ -1,0 +1,19 @@
+//
+//  PrefixHeader.pch
+//  tx-test
+//
+//  Created by 候文福 on 2022/1/29.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "TUIMeeting-Swift.h" // oc调用远端swift
+#import "TRTCMeeting.h"
+#import "Masonry.h"
+#import "tx_test-Swift.h"  // oc调用本地swift
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* PrefixHeader_pch */

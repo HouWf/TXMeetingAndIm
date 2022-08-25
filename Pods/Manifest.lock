@@ -1,0 +1,77 @@
+PODS:
+  - Alamofire (5.5.0)
+  - IQKeyboardManager (6.5.10)
+  - Kingfisher (6.3.1)
+  - Masonry (1.1.0)
+  - MJExtension (3.4.1)
+  - MJRefresh (3.7.5)
+  - SnapKit (5.0.1)
+  - SSZipArchive (2.4.2)
+  - TCBeautyKit (1.0.0):
+    - SSZipArchive
+    - Toast-Swift
+  - Toast-Swift (5.0.1)
+  - TUIMeeting/TRTC (1.0.0):
+    - Alamofire
+    - Kingfisher (<= 6.3.2)
+    - MJExtension
+    - MJRefresh
+    - SnapKit
+    - TCBeautyKit
+    - Toast-Swift
+    - TXAppBasic
+    - TXIMSDK_Plus_iOS (~> 5.7.1435)
+    - TXLiteAVSDK_TRTC
+  - TXAppBasic (1.0.0)
+  - TXIMSDK_Plus_iOS (5.7.1435)
+  - TXLiteAVSDK_TRTC (9.5.11004)
+
+DEPENDENCIES:
+  - IQKeyboardManager
+  - Masonry
+  - TCBeautyKit (from `TCBeautyKit/`)
+  - TUIMeeting/TRTC (from `./`)
+  - TXAppBasic (from `TXAppBasic/`)
+  - TXLiteAVSDK_TRTC
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - IQKeyboardManager
+    - Kingfisher
+    - Masonry
+    - MJExtension
+    - MJRefresh
+    - SnapKit
+    - SSZipArchive
+    - Toast-Swift
+    - TXIMSDK_Plus_iOS
+    - TXLiteAVSDK_TRTC
+
+EXTERNAL SOURCES:
+  TCBeautyKit:
+    :path: TCBeautyKit/
+  TUIMeeting:
+    :path: "./"
+  TXAppBasic:
+    :path: TXAppBasic/
+
+SPEC CHECKSUMS:
+  Alamofire: 1c4fb5369c3fe93d2857c780d8bbe09f06f97e7c
+  IQKeyboardManager: 45a1fa55c1a5b02c61ac0fd7fd5b62bb4ad20d97
+  Kingfisher: 016c8b653a35add51dd34a3aba36b580041acc74
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MJExtension: 21c5f6f8c4d5d8844b7ae8fbae08fed0b501f961
+  MJRefresh: fdf5e979eb406a0341468932d1dfc8b7f9fce961
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+  SSZipArchive: e7b4f3d9e780c2acc1764cd88fbf2de28f26e5b2
+  TCBeautyKit: d7182c484218f88461680fa7dd14706efb660215
+  Toast-Swift: 9b6a70f28b3bf0b96c40d46c0c4b9d6639846711
+  TUIMeeting: e78fd1252e6a68e0c3ac28363b31a8336292fd26
+  TXAppBasic: f72fd658cb2cec20f0368158752b82226cb6cdec
+  TXIMSDK_Plus_iOS: 4b7c1097ea9899f7bf95fa90e2cb4471389f93dd
+  TXLiteAVSDK_TRTC: 49d2f320fbb99c040a3d7287fe983cbbcc94f28b
+
+PODFILE CHECKSUM: 765c2248484f5fdc22750c89ad102b8b4ece7c32
+
+COCOAPODS: 1.11.2
