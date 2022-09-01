@@ -256,10 +256,11 @@ class MsgTableCell : UITableViewCell {
             }
             
             // 内容
-            if msgModel.strContent.contains("emo") {
+            let emoName = EmoTools.getEmoWithMsg(msgModel.strContent)
+            if emoName != "" {
                 self.emoView.isHidden = false
                 self.messageLabel.isHidden = true
-                self.emoView.image = UIImage.init(named: msgModel.strContent, in: MeetingBundle(), compatibleWith: nil)
+                self.emoView.image = UIImage.init(named: emoName, in: MeetingBundle(), compatibleWith: nil)
                 
 //                self.emoView.image = placeholderImg
                 self.messageLabel.snp.remakeConstraints { (make) in

@@ -35,9 +35,10 @@ class ChatMessageContentView : UIView {
         self.message = message
         let contentW: CGFloat = ScreenBounds.width - 120
         // 修改类型
-        if self.message.strContent.contains("emo_") {
+        let emoName = EmoTools.getEmoWithMsg(message.strContent)
+        if emoName != "" {
             self.message.type = .Picture
-            let placeholderImg = UIImage.init(named: message.strContent, in: MeetingBundle(), compatibleWith: nil)
+            let placeholderImg = UIImage.init(named: emoName, in: MeetingBundle(), compatibleWith: nil)
             self.message.picture = placeholderImg
         }
         
